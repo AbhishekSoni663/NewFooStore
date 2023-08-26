@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+.nav-logo{
+height: 90px;
+}
+.nav-btn-logo{
+    height: 60px;
+}
+.nav-detail{
+    min-width:100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.box-btn{
+    display: flex;
+   width: 15%;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.bi-whatsapp{
+    font-size: 23px;
+}
+.navbar{
+    background: none !important;
+    color: black !important;
+}
+@media(max-width:900px){
+    .nav-head{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+}
+@media(max-width:768px){
+    .nav-detail{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-head{
+        /* background-color: aliceblue; */
+        min-width: 100% !important;
+        display: flex;
+      
+       
+    }
+    .box-btn{
+        /* background-color: aliceblue; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-img1{
+        display: none !important;
+    }
+}
+ .btn-link{
+    text-decoration: none;
+    color:rgb(211, 183, 177);
+    font-size: 15px;
+ }
+ .nav-head a{
+    font-family: 'Rancho', cursive;
+    font-size: 29px;
+    font-weight: 500;
+    color: aqua;
+    text-decoration: none;
+ }
+ .btn h4{
+    font-size: 15px;
+    color: aqua;
+ }
+ /* @media(max-width:500px){ */
+    /* .nav-detail{ */
+        /* display: flex; */
+        /* flex-direction: column-reverse !important; */
+    /* } */
+ /* } */

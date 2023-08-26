@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Tsukimi+Rounded:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700&family=Norican&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.special-nav{
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.cont-special{
+    display: flex !important;
+    /* background-color: aliceblue; */
+}
+.special-ul{
+    display: flex;
+    /* background-color: burlywood; */
+    padding: 20px;
+    min-width:60%;
+    justify-content: space-around;
+    
+}
+.card-data {
+    font-family: 'Tsukimi Rounded', sans-serif !important;
+    font-size: 13px !important;
+}
+.card-data1{
+    font-family: 'Tsukimi Rounded', sans-serif !important;
+    font-size: 13px !important;
+}
+.card-data2{
+    font-family: 'Tsukimi Rounded', sans-serif !important;
+    font-size: 12px !important;
+}
+.special-title h2{
+    margin-top: 10px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.special-title h4{
+    font-size: 20px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.special-title{
+    min-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    /* background-color: rgb(97, 116, 133) !important; */
+}
+.special-ul Button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Merienda', cursive;
+}
+.special-ul a:hover{
+    border-bottom: 1px dotted rgba(238, 53, 53, 0.908);
+color: rgba(190, 11, 11, 0.908) !important;
+padding-bottom: 5px;
+}
+
+.special-card{
+    border: 1px solid black;
+    width: 250px !important;
+    background: none !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: aliceblue !important;
+    border: 1px solid white !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.special-card-img{
+   width: 100% !important; 
+   display: flex !important;
+   background: none;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.special-btn{
+    transition: all ease-in-out 0.3s;
+    color: aliceblue !important;
+    background-color: rgba(99, 99, 99, 0.071) !important;
+}
+.special-btn:hover{
+    transform: scale(0.9);
+    background-color: rgba(23, 10, 39, 0.082) !important;
+}
+.special-card-img img{
+    width:100% !important ;
+    background-position: center;
+    padding: 3px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+    /* filter: drop-shadow(1px 0 2px yellow); */
+}
+.special-card-img img:hover{
+    transform: scale(0.9);
+}
+.special-card-sect{
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+.special-card-sect1{
+    display: flex !important;
+    /* background-color: aliceblue !important; */
+min-width: 100%;
+}
+.special-full-menu{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+justify-content: space-evenly;
+}
+@media(max-width:768px){
+    .special-card{
+        min-width: auto;
+    }
+    .special-card-sect{
+        min-width: 100% !important;
+    }
+    .special-title{
+        width: 100% !important;
+    }
+    .special-ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

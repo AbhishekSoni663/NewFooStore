@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.rest-main{
+min-height: 90vh;
+min-width:100%;
+padding: 10px;
+/* background-color: aliceblue !important; */
+}
+.rest-card1{
+   /* background-color: aliceblue; */
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   min-width:70%;
+   padding: 10px;
+   border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+.restaurant-box{
+    
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+
+
+
+
+/* .restaurant-card{
+     border: 1px solid rgba(240, 248, 255, 0.141);
+} */
+
+.restaurant-box3{
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+}
+.restaurant-box4{
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+
+@media(max-width:768px){
+    .restaurant-card{
+        min-width: 100% !important;
+    }
+    .rest-card-img{
+        min-width: 100% !important;
+    }
+   
+    .restaurant-box4{
+       margin-top: 5px;
+    }
+    .restaurant-box1{
+       min-width:100%;
+       display: flex;
+    flex-wrap: wrap;
+    }
+    .restaurant-box2{
+        min-width:100%;
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .rest-typs span{
+        text-align: center !important;
+    }
+    .rest-typs{
+        text-align: center !important;
+    }
+    .restaurant-card1{
+        min-width: 100% !important;
+    }
+    .rest-card-img1{
+        min-width: 100% !important;
+    }
+    .rest-card1{
+        min-width: 100% !important;
+       
+    }
+}
+
+.rest-card-box{
+    color: aliceblue;
+}
+.rest-card-box0{
+    color: aliceblue;
+}
+.rest-card-typ{
+    color: aliceblue;
+}
+.rest-card-box1{
+    color: aliceblue;
+}
+.rest-card-box2{
+    color: aliceblue;
+}
+/* .restaurant-card1{
+    border: 1px solid rgba(240, 248, 255, 0.137);
+} */
